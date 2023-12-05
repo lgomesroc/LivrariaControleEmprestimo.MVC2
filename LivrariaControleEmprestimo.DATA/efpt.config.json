@@ -1,0 +1,53 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "ControleEmprestimoLivroContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "LivrariaControleEmprestimo.DATA",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Cliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Livro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Livro_Cliente_Emprestimo]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "lucgomroc\\sqlexpress.ControleEmprestimoLivro.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
