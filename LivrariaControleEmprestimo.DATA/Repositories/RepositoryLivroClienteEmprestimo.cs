@@ -10,6 +10,7 @@ namespace LivrariaControleEmprestimo.DATA.Repositories
 {
     public class RepositoryLivroClienteEmprestimo :  RepositoryBase<LivroClienteEmprestimo>, IRepositoryLivroClienteEmprestimo
     {
+        public static object oRepositoryLivroClienteEmprestimo;
         public RepositoryLivroClienteEmprestimo(bool Savechanges = true) : base(Savechanges)
         {
 

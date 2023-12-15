@@ -16,19 +16,19 @@ public partial class LivroClienteEmprestimo
     public int Id { get; set; }
 
     [Column("lceIdLivro")]
-    public int? LceIdLivro { get; set; }
+    public int LceIdLivro { get; set; }
 
     [Column("lceIdCliente")]
-    public int? LceIdCliente { get; set; }
+    public int LceIdCliente { get; set; }
 
     [Column("lceDataEmprestimo", TypeName = "datetime")]
-    public DateTime? LceDataEmprestimo { get; set; }
+    public DateTime LceDataEmprestimo { get; set; }
 
     [Column("lceDataDevolucao", TypeName = "datetime")]
-    public DateTime? LceDataDevolucao { get; set; }
+    public DateTime LceDataDevolucao { get; set; }
 
     [Column("lceEntrega")]
-    public int? LceEntrega { get; set; }
+    public int LceEntrega { get; set; }
 
     [ForeignKey("Id")]
     [InverseProperty("LivroClienteEmprestimo")]

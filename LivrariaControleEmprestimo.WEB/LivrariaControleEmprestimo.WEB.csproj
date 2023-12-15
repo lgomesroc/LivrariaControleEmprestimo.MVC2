@@ -31,4 +31,8 @@
     <ProjectReference Include="..\LivrariaControleEmprestimo.DATA\LivrariaControleEmprestimo.DATA.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Emprestimos\" />
+  </ItemGroup>
+
 </Project>

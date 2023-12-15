@@ -26,6 +26,10 @@
       {
          "Name": "[dbo].[Livro_Cliente_Emprestimo]",
          "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VW_Livro_Cliente_Emprestimo]",
+         "ObjectType": 3
       }
    ],
    "UiHint": "lucgomroc\\sqlexpress.ControleEmprestimoLivro.dbo",
@@ -38,7 +42,7 @@
    "UseFluentApiOnly": false,
    "UseHandleBars": false,
    "UseHierarchyId": false,
-   "UseInflector": true,
+   "UseInflector": false,
    "UseLegacyPluralizer": false,
    "UseManyToManyEntity": false,
    "UseNoDefaultConstructor": false,

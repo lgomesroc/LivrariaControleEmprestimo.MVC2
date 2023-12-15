@@ -71,16 +71,15 @@ namespace LivrariaControleEmprestimo.DATA.Repositories
             _Contexto.SaveChanges();
         }
 
-        public T? SelecionarPK(params object[] variavel)
+        public T SelecionarPK(params object[] variavel)
         {
             if (_Contexto != null)
             {
                 return _Contexto.Set<T>().Find(variavel);
             }
-            else
-            {
-                return default;
-            }
+            
+            return default;
+            
         }
 
         public List<T> SelecionarTodos()
@@ -89,10 +88,9 @@ namespace LivrariaControleEmprestimo.DATA.Repositories
             {
                 return _Contexto.Set<T>().ToList();
             }
-            else
-            {
-                return new List<T>();
-            }
+            
+            return new List<T>();
+            
         }
 
     }

@@ -17,36 +17,23 @@ public partial class ControleEmprestimoLivroContext : DbContext
     {
     }
 
-    public virtual DbSet<Cliente> Clientes { get; set; }
+    public virtual DbSet<Cliente> Cliente { get; set; }
 
-    public virtual DbSet<Livro> Livros { get; set; }
+    public virtual DbSet<Livro> Livro { get; set; }
 
-    public virtual DbSet<LivroClienteEmprestimo> LivroClienteEmprestimos { get; set; }
+    public virtual DbSet<LivroClienteEmprestimo> LivroClienteEmprestimo { get; set; }
 
-////    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-////#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-////        => optionsBuilder.UseSqlServer(@"Data Source=LUCGOMROC\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;User ID=sa;Password=5577azcD@");
+    public virtual DbSet<VwLivroClienteEmprestimo> VwLivroClienteEmprestimo { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
-    {
-        var conexao = @"Data Source=LUCGOMROC\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;User ID=sa; MultipleActiveResultSets=true;Password=123;TrustServerCertificate=True";
-        options.UseSqlServer(conexao);
-    }
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source=LUCGOMROC\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;Persist Security Info=True;User ID=sa;Password=123");
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Cliente>(entity =>
-        {
-            entity.Property(e => e.Id).ValueGeneratedNever();
-        });
-
-        modelBuilder.Entity<Livro>(entity =>
-        {
-            entity.Property(e => e.Id).ValueGeneratedNever();
-        });
-
         modelBuilder.Entity<LivroClienteEmprestimo>(entity =>
         {
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
             entity.HasOne(d => d.IdNavigation).WithOne(p => p.LivroClienteEmprestimo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
@@ -55,6 +42,11 @@ public partial class ControleEmprestimoLivroContext : DbContext
             entity.HasOne(d => d.Id1).WithOne(p => p.LivroClienteEmprestimo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Livro_Cliente_Emprestimo_Livro");
+        });
+
+        modelBuilder.Entity<VwLivroClienteEmprestimo>(entity =>
+        {
+            entity.ToView("VW_Livro_Cliente_Emprestimo");
         });
 
         OnModelCreatingPartial(modelBuilder);

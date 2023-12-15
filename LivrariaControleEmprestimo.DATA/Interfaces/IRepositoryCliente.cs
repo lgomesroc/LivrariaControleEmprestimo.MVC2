@@ -9,6 +9,14 @@ namespace LivrariaControleEmprestimo.DATA.Interfaces
 {
     interface IRepositoryCliente : IRepositoryModel<Cliente>
     {
-
+        new List<Cliente> SelecionarTodos();
+        new Cliente SelecionarPK(params object[] variavel);
+        new Cliente Incluir(Cliente objeto);
+        new Cliente Alterar(Cliente objeto);
+        new void Excluir(Cliente objeto);
+        new void Excluir(params object[] variavel);
+        new void Savechanges();
     }
+
 }
+

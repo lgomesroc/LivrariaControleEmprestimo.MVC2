@@ -1,17 +1,3 @@
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.AssemblyReference.cache
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfoInputs.cache
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfo.cs
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.CoreCompileInputs.cache
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.deps.json
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.runtimeconfig.json
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\refint\LivrariaControleEmprestimo.DATA.dll
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.genruntimeconfig.cache
-D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\ref\LivrariaControleEmprestimo.DATA.dll
 C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.deps.json
 C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.runtimeconfig.json
 C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
@@ -26,3 +12,18 @@ C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\Livra
 C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
 C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.genruntimeconfig.cache
 C:\Users\josia\Desktop\Nova pasta (3)\LivrariaControleEmprestimo.MVC1-main\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\ref\LivrariaControleEmprestimo.DATA.dll
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.deps.json
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.runtimeconfig.json
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.AssemblyReference.cache
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfoInputs.cache
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfo.cs
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.CoreCompileInputs.cache
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.sourcelink.json
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\refint\LivrariaControleEmprestimo.DATA.dll
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.genruntimeconfig.cache
+D:\Programas testes\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\ref\LivrariaControleEmprestimo.DATA.dll

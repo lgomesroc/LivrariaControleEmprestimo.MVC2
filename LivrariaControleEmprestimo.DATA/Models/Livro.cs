@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LivrariaControleEmprestimo.DATA.Models;
 
-[Table("Livro")]
 public partial class Livro
 {
     [Key]

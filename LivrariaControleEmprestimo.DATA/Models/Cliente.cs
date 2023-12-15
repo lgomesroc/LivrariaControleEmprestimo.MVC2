@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LivrariaControleEmprestimo.DATA.Models;
 
-[Table("Cliente")]
 public partial class Cliente
 {
     [Key]
@@ -51,11 +50,13 @@ public partial class Cliente
     [Unicode(false)]
     public string CliNumero { get; set; }
 
+    [Required]
     [Column("cliTelefoneCelular")]
     [StringLength(14)]
     [Unicode(false)]
     public string CliTelefoneCelular { get; set; }
 
+    [Required]
     [Column("cliTelefoneFixo")]
     [StringLength(13)]
     [Unicode(false)]

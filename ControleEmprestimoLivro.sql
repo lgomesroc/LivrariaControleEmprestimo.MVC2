@@ -1,2 +1,7 @@
-INSERT INTO Cliente
-VALUES (01, '12345678901', 'Teste', 'Rua do Teste', 'Testeopolis', 'Bairro Teste', '123', '(00)91234-5678', '(00)2345-6789');
+	CREATE VIEW VW_Livro_Cliente_Emprestimo
+	AS
+	select C.cliNome,L.livroNome, LCE.* from Livro_Cliente_Emprestimo LCE
+	inner join Cliente C on C.id = LCE.lceIdCliente
+	inner join Livro L on L.id = LCE.lceIdLivro
+
+	SELECT * FROM VW_Livro_Cliente_Emprestimo
